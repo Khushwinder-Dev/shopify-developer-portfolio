@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { SectionLabel } from './section-label'
 
@@ -24,8 +23,9 @@ export function FindMe() {
               className="group flex items-center gap-3 rounded-xl border border-border bg-secondary/30 px-4 py-3 transition-colors hover:border-primary/50 hover:bg-secondary/60"
             >
               <span className="flex size-9 items-center justify-center rounded-lg bg-white">
-                <Image
-                  src={social.logo}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={social.logo || '/placeholder.svg'}
                   alt=""
                   width={20}
                   height={20}
