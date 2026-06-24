@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/khushwinder-portfolio//_next/:path+",
-        "destination": "/khushwinder-portfolio/_next/:path+"
+        "source": "/shopify-developer-portfolio//_next/:path+",
+        "destination": "/shopify-developer-portfolio/_next/:path+"
       }
     ],
     "fallback": []
